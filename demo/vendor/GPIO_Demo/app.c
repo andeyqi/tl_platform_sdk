@@ -138,8 +138,9 @@ void main_loop(void)
     #if (GPIO_DEMO_MODE == GPIO_DEMO_SQUARE_WAVE)
     gpio_toggle(KEY3);
     #endif
-    gpio_toggle(LED1);
+    gpio_toggle(LED2);
     delay_ms(500);
+    printf("led2 toggle\r\n");
 }
 
     /**

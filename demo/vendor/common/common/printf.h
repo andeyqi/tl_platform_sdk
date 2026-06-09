@@ -61,7 +61,7 @@
         #if defined(MCU_CORE_TL521X)
             #define DEBUG_INFO_TX_PIN GPIO_PB2 //uart tx pin
         #else
-            #define DEBUG_INFO_TX_PIN GPIO_PA0 //uart tx pin
+            #define DEBUG_INFO_TX_PIN GPIO_PD6 //uart tx pin
         #endif
 
         #if defined(MCU_CORE_B91) || defined(MCU_CORE_B92)
